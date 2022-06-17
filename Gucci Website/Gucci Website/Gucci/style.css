@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    text-transform:uppercase;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid rgb(248, 26,92);
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    border: none;
+    outline: none;
+    background: rgb(248, 26,92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.btn1:hover{
+    background-color: rgb(88, 55, 235);
+    transition: 0.5s;
+}
+
+h1{
+    font-weight: 700;
+}
+
+.card:hover{
+    
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75); 
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+
+.card-body .sale{
+    background-color: rgb(235, 72, 72);
+    border-radius: 0.313rem;
+    color: var(--text--white);
+    font-size: 0.831rem;
+    letter-spacing: 0.125rem;
+    line-height: 1.563rem;
+    padding: 0.125em 0.813rem;
+    text-transform: uppercase;
+    position: absolute;
+    left: 1rem;
+    top: 1.188rem;
+    z-index: 99;
+}
+
+
+
